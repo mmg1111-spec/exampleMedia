@@ -1,0 +1,17 @@
+<!-- res/layout/custom_presentation_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <!-- 필요한 다른 UI 요소를 여기에 추가할 수 있습니다. -->
+
+</RelativeLayout>
