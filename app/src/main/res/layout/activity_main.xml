@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,24 +20,18 @@
         android:text="미디어 프로젝션 멈춤"
         android:layout_below="@id/startProjectionButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="50dp"/>
 
-    <Button
-        android:id="@+id/foregroundButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Foreground 모드 활성화"
-        android:layout_below="@id/stopProjectionButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+
 
     <Button
         android:id="@+id/startServerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/foregroundButton"
+        android:layout_below="@id/stopProjectionButton"
         android:layout_centerHorizontal="true"
-        android:text="Start Server" />
+        android:text="Start Server"
+        android:layout_marginTop="50dp"/>
 
     <Button
         android:id="@+id/startClientButton"
@@ -46,7 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/startServerButton"
         android:layout_centerHorizontal="true"
-        android:text="Start Client" />
+        android:text="Start Client"
+        android:layout_marginTop="50dp"/>
 
     <Button
         android:id="@+id/stopServerButton"
@@ -54,11 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/startClientButton"
         android:layout_centerHorizontal="true"
-        android:text="Stop Server" />
-   <!--
-    <SurfaceView
-        android:id="@+id/presentationView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-!-->
+        android:text="Stop Server"
+        android:layout_marginTop="50dp"/>
+
 </RelativeLayout>
